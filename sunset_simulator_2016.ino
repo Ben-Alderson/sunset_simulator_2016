@@ -9,7 +9,13 @@ void setup() {
 }
 
 void loop() {
+  //RED SETTING
   digitalWrite(red, HIGH);
   digitalWrite(green, LOW);
+  digitalWrite(blue, LOW);
+
+  //GREEN SETTING
+  digitalWrite(red, LOW);
+  digitalWrite(green, HIGH);
   digitalWrite(blue, LOW);
 }
