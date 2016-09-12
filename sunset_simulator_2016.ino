@@ -12,4 +12,12 @@ void loop() {
   digitalWrite(red, HIGH);
   digitalWrite(green, LOW);
   digitalWrite(blue, LOW);
+
+  digitalWrite(red, LOW);
+  digitalWrite(green, HIGH);
+  digitalWrite(blue, LOW);
+  
+  digitalWrite(red, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(blue, HIGH);
 }
